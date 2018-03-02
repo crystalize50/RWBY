@@ -6,13 +6,13 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content = 'ping') {
+    if (message.content = 'Ping') {
     	message.channel.send('PONG!');
   	}
 });
 
 client.on('message', message => {
-    if (message.content= 'bing') {
+    if (message.content= 'Bing') {
     	message.reply('BONG!');
   	}
 });

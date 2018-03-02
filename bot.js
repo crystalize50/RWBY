@@ -19,13 +19,19 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === 'Bing') {
-    	message.reply('BONG!');
+    	message.send('BONG!');
   	}
 });
 
 client.on('message', message => {
     if (message.content === 'bing') {
-    	message.reply('BONG!');
+    	message.send('BONG!');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'hi Violet', 'hi, Violet', 'Hi Violet', 'Hi, Violet') {
+    	message.reply('Hello!');
   	}
 });
 

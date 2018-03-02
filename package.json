@@ -1,9 +1,14 @@
-
 {
   "name": "Violet",
-  "version": "1.0.0",
   "description": "Multi-purpose Discord bot",
+  "version": "0.0.0",
   "main": "bot.js",
-  "author": "Crystalize50",
-  "dependencies": {}
+  "author": "YOUR-NAME-HERE",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "discord.js": "11.1.0",
+    "request": "2.81.0"
+  }
 }

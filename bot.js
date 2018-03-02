@@ -29,11 +29,6 @@ client.on('message', message => {
   	}
 });
 
-client.on('message', message => {
-    if (message.content === 'hi Violet', 'hi, Violet', 'Hi Violet', 'Hi, Violet') {
-    	message.reply('Hello!');
-  	}
-});
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);

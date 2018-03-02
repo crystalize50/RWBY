@@ -9,10 +9,18 @@ client.on('message', message => {
     if (message.content === 'Ping') {
     	message.channel.send('PONG!');
   	}
+ client.on('message', message => {
+    if (message.content === 'ping') {
+    	message.channel.send('PONG!');
+  	}
 });
 
 client.on('message', message => {
     if (message.content === 'Bing') {
+    	message.reply('BONG!');
+  	}
+client.on('message', message => {
+    if (message.content === 'bing') {
     	message.reply('BONG!');
   	}
 });

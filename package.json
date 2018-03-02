@@ -1,9 +1,8 @@
 {
-  "name": "Violet",
-  "description": "Multi-purpose Discord bot",
+  "name": "Test",
+  "description": "Test",
   "version": "0.0.0",
   "main": "bot.js",
-  "author": "YOUR-NAME-HERE",
   "scripts": {
     "start": "node bot.js"
   },

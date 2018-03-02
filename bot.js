@@ -23,14 +23,84 @@ client.on('message', message => {
   	}
 });
 
-client.on('message', message = {
+client.on('message', message => {
     if (message.content === 'bing') {
     	message.send('BONG!');
-  	}
-    if (message.content === 'Hi') {
-    	message.send('Bye!');
-  	}
+    }
 });
+
+client.on('message', message => {
+    if (message.content === 'Hi, Violet') {
+    	message.reply('Hello!');
+    }
+});
+
+client.on('message', message => {
+    if (message.content === 'hi, Violet') {
+    	message.reply('Hello!');
+    }
+});
+
+client.on('message', message => {
+    if (message.content === 'Hi Violet') {
+    	message.reply('Hello!');
+    }
+});
+
+client.on('message', message => {
+    if (message.content === 'hi Violet') {
+    	message.reply('Hello!');
+    }
+});
+
+client.on('message', message => {
+    if (message.content === 'Hello, Violet') {
+    	message.reply('Hey!');
+    }
+});
+
+client.on('message', message => {
+    if (message.content === 'hello, Violet') {
+    	message.reply('Hey!');
+    }
+});
+
+client.on('message', message => {
+    if (message.content === 'Hello Violet') {
+    	message.reply('Hey!');
+    }
+});
+
+client.on('message', message => {
+    if (message.content === 'hello Violet') {
+    	message.reply('Hey!');
+    }
+});
+
+client.on('message', message => {
+    if (message.content === 'Hey, Violet') {
+    	message.reply('What's up!');
+    }
+});
+
+client.on('message', message => {
+    if (message.content === 'hey, Violet') {
+    	message.reply('What's up!');
+    }
+});
+
+client.on('message', message => {
+    if (message.content === 'Hey Violet') {
+    	message.reply('What's up!');
+    }
+});
+
+client.on('message', message => {
+    if (message.content === 'hey Violet') {
+    	message.reply('What's up!');
+    }
+});
+//----------------------------------------------------------------------------------------------------------------------------
 
 
 // THIS  MUST  BE  THIS  WAY

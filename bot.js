@@ -113,5 +113,26 @@ client.on('message', message => {
   }
 });
 
+client.on('message', message => {
+  if (message.content === 'avatar') {
+    // Send the user's avatar URL
+    message.reply(message.author.avatarURL);
+  }
+});
+
+client.on('message', message => {
+  if (message.content === 'pfp') {
+    // Send the user's avatar URL
+    message.reply(message.author.avatarURL);
+  }
+});
+
+client.on('message', message => {
+  if (message.content === 'Pfp') {
+    // Send the user's avatar URL
+    message.reply(message.author.avatarURL);
+  }
+});
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);

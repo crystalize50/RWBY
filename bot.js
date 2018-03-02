@@ -9,9 +9,6 @@ client.on('message', message => {
     if (message.content === 'Ping') {
         message.channel.send('PONG!');
     }
-       (message.content === 'Hi') {
-    	message.channel.send('Bye!');
-  	}
 });
 
  client.on('message', message => {
@@ -29,6 +26,9 @@ client.on('message', message => {
 client.on('message', message => {
     if (message.content === 'bing') {
     	message.send('BONG!');
+  	}
+    if (message.content === 'Hi') {
+    	message.send('Bye!');
   	}
 });
 

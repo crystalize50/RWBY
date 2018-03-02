@@ -1,1 +1,1 @@
-worker: python Violet.py
+worker: node bot.js

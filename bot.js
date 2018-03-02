@@ -5,6 +5,9 @@ client.on('ready', () => {
     console.log('I am ready!');
 });
 
+//--------------------------------------------------------------------------------------------------------------------------------
+//Greetings
+
 client.on('message', message => {
     if (message.content === 'Ping') {
         message.channel.send('PONG!');
@@ -99,6 +102,15 @@ client.on('message', message => {
     if (message.content === 'hey Violet') {
     	message.reply("What's up!");
     }
+});
+
+//-------------------------------------------------------------------------------------------------------------------------------------
+//Misc
+client.on('message', message => {
+  if (message.content === 'Avatar') {
+    // Send the user's avatar URL
+    message.reply(message.author.avatarURL);
+  }
 });
 
 // THIS  MUST  BE  THIS  WAY

@@ -130,7 +130,14 @@ client.on('message', message => {
 client.on('message', message => {
   if (message.content === 'Pfp') {
     // Send the user's avatar URL
-    message.reply(message.author.avatar);
+    message.reply(message.author.avatarURL);
+  }
+});
+
+client.on('message', message => {
+  if (message.content === 'Pfp ${member}'}) {
+    // Send the user's avatar URL
+    message.reply(message.user.avatarURL);
   }
 });
 

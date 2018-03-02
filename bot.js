@@ -79,25 +79,25 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === 'Hey, Violet') {
-    	message.reply('What's up!');
+    	message.reply("What's up!");
     }
 });
 
 client.on('message', message => {
     if (message.content === 'hey, Violet') {
-    	message.reply('What's up!');
+    	message.reply("What's up!");
     }
 });
 
 client.on('message', message => {
     if (message.content === 'Hey Violet') {
-    	message.reply('What's up!');
+    	message.reply("What's up!");
     }
 });
 
 client.on('message', message => {
     if (message.content === 'hey Violet') {
-    	message.reply('What's up!');
+    	message.reply("What's up!");
     }
 });
 

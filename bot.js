@@ -8,6 +8,8 @@ client.on('ready', () => {
 client.on('message', message => {
     if (message.content === 'Ping') {
     	message.channel.send('PONG!');
+       (message.content === 'Hi') {
+    	message.channel.send('Bye!');
   	}
 });
 

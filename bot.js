@@ -37,3 +37,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
          }
      }
 });
+
+// THIS  MUST  BE  THIS  WAY
+client.login(process.env.NDE5MDM1NzI2MzcwMzA4MDk2.DXqRDA.0ILeBiN3E3ELnEDaII4EY8TBgQA);
+

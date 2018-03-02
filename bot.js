@@ -103,7 +103,78 @@ client.on('message', message => {
     	message.reply("What's up!");
     }
 });
+//-------------------------------------------------------------------------------------------------------------------------------------
+client.on('message', message => {
+    if (message.content === 'Hi, violet') {
+    	message.reply('Hello!');
+    }
+});
 
+client.on('message', message => {
+    if (message.content === 'hi, violet') {
+    	message.reply('Hello!');
+    }
+});
+
+client.on('message', message => {
+    if (message.content === 'Hi violet') {
+    	message.reply('Hello!');
+    }
+});
+
+client.on('message', message => {
+    if (message.content === 'hi violet') {
+    	message.reply('Hello!');
+    }
+});
+
+client.on('message', message => {
+    if (message.content === 'Hello, violet') {
+    	message.reply('Hey!');
+    }
+});
+
+client.on('message', message => {
+    if (message.content === 'hello, violet') {
+    	message.reply('Hey!');
+    }
+});
+
+client.on('message', message => {
+    if (message.content === 'Hello violet') {
+    	message.reply('Hey!');
+    }
+});
+
+client.on('message', message => {
+    if (message.content === 'hello violet') {
+    	message.reply('Hey!');
+    }
+});
+
+client.on('message', message => {
+    if (message.content === 'Hey, violet') {
+    	message.reply("What's up!");
+    }
+});
+
+client.on('message', message => {
+    if (message.content === 'hey, violet') {
+    	message.reply("What's up!");
+    }
+});
+
+client.on('message', message => {
+    if (message.content === 'Hey violet') {
+    	message.reply("What's up!");
+    }
+});
+
+client.on('message', message => {
+    if (message.content === 'hey violet') {
+    	message.reply("What's up!");
+    }
+});
 //-------------------------------------------------------------------------------------------------------------------------------------
 //Misc
 client.on('message', message => {
@@ -134,12 +205,7 @@ client.on('message', message => {
   }
 });
 
-client.on('message', message => {
-  if (message.content === 'Pfp' user}) {
-    // Send the user's avatar URL
-    message.reply(message.user.avatarURL);
-  }
-});
+//--------------------------------------------------------------------------------------------------------------------------------------
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);

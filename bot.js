@@ -135,7 +135,7 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-  if (message.content === 'Pfp ${member}'}) {
+  if (message.content === 'Pfp' user}) {
     // Send the user's avatar URL
     message.reply(message.user.avatarURL);
   }
